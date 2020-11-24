@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:background="#1AC6FF">
+
+
+    <TextView
+        android:id="@+id/btn_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/Putih"
+        android:text="0"
+        android:textSize="160sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_up"
+        android:layout_width="377dp"
+        android:layout_height="397dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:onClick="up" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="111dp"
+        android:layout_height="116dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:onClick="reset"
+        android:text="reset"
+        android:textColor="@android:color/holo_red_light" />
+
+</LinearLayout>
